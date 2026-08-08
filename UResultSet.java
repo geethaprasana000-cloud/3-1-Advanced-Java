@@ -5,7 +5,7 @@ public class UResultSet {
 
         String url = "jdbc:mysql://localhost:3306/testdb";
         String user = "testuser";
-        String password = "Test@5678Pass";
+        String password = "testpass";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
